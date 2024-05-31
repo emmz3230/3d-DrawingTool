@@ -1,5 +1,5 @@
 import React from "react";
-import "./CanvasToggleButton.css";
+import "./CanvasToggle.css";
 
 export default function ToggleCanvasButton({
   toggleShowDrawingCanvas,

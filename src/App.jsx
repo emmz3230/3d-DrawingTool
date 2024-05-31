@@ -1,13 +1,13 @@
-import { useRef, useState, Suspense } from "react";
+import { useRef, useState } from "react";
 import { Canvas } from "@react-three/fiber";
-import { VanGoghRoom } from "./components/VanGoghRoom";
+import { VanGoghRoom } from "./components/Van_gogh_room";
 import { SketchApp } from "./components/SketchApp/SketchApp";
 import { InfoOverlay } from "./components/InfoOverlay/InfoOverlay";
 import { DrawingCanvas } from "./components/DrawingCanvas/DrawingCanvas";
 import { Environment } from "@react-three/drei";
 import { CameraManager } from "./components/CameraManager";
 import "./App.css";
-import ToggleCanvasButton from "./components/CanvasToggleButton/CanvasToggleButton";
+import ToggleCanvasButton from "./components/CanvasToggleButton/CanvasToggle";
 
 const App = () => {
   const [showDrawingCanvas, setShowDrawingCanvas] = useState(false);
