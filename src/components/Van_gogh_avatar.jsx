@@ -9,7 +9,7 @@ Title: Clone High Van Gogh (FINAL)
 
 import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
-import { modelPath } from "/van_gogh_avatar.glb";
+import modelPath from "/van_gogh_avatar.glb";
 
 export function VanGoghAvatar(props) {
   const { nodes, materials } = useGLTF(modelPath);

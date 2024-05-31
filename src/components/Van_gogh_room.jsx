@@ -9,7 +9,7 @@ Title: Camera Limits Demo: Van Gogh - Bedroom in Arles
 
 import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
-import { modelPath } from "/van_gogh_room.glb";
+import modelPath from "/van_gogh_room.glb";
 
 export function VanGoghRoom(exploreRoom, ...props) {
   const { nodes, materials } = useGLTF(modelPath);
