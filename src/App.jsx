@@ -7,7 +7,7 @@ import { DrawingCanvas } from "./components/DrawingCanvas/DrawingCanvas";
 import { Environment } from "@react-three/drei";
 import { CameraManager } from "./components/CameraManager";
 import "./App.css";
-import ToggleCanvasButton from "./components/CanvasToggleButton/CanvasToggle";
+import ToggleCanvasButton from "./components/CanvasToggleButton/CanvasToggleButton";
 
 const App = () => {
   const [showDrawingCanvas, setShowDrawingCanvas] = useState(false);

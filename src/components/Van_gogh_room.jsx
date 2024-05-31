@@ -17,8 +17,8 @@ export function VanGoghRoom(exploreRoom, ...props) {
     <group {...props} dispose={null}>
       <group
         position={[-1.3, -1.9, 0]}
-        rotation={[-Math.PI / 2, 0, 0]}
-        scale={1.005}
+        rotation={[-Math.PI / 2.2, 0, 0.3]}
+        scale={2.005}
       >
         <mesh
           castShadow
