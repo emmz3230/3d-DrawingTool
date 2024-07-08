@@ -1,4 +1,3 @@
-import React from "react";
 import "./BrushSizeSlider.css";
 
 export const BrushSizeSlider = ({ strokeWidth, setStrokeWidth }) => {
